@@ -198,7 +198,11 @@ All scripts exit silently on success and print progress + results along the way.
 
 ## 🖼️ Screenshots
 
-_Add screenshots of the CLI output for `--recommend`, `--similar`, and `--evaluate` here._
+<img width="779" height="209" alt="image" src="https://github.com/user-attachments/assets/08f962b6-dd00-4021-9577-350d4e6129ff" />
+<img width="894" height="413" alt="image" src="https://github.com/user-attachments/assets/a687215d-935c-484b-a3dc-b615afd996fa" />
+<img width="929" height="391" alt="image" src="https://github.com/user-attachments/assets/b670b163-1f3a-4b5e-a121-b347f76d1960" />
+<img width="669" height="179" alt="image" src="https://github.com/user-attachments/assets/ac867a41-0472-46d3-a920-299dc57d096d" />
+
 
 ---
 
@@ -220,4 +224,4 @@ Educational project — free to use and learn from.
 
 ## 👤 Author
 
-**Your Name** — AIML Course Project
+**KULDEEP PARMAR** — AIML Course Project
