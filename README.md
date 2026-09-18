@@ -1,4 +1,4 @@
-# 🎬 CineMatch — Hybrid Movie Recommender
+#  CineMatch — Hybrid Movie Recommender
 
 A complete AI/ML project that recommends movies to users using **four complementary algorithms**: Popularity-based, User-User Collaborative Filtering, Item-Item Collaborative Filtering, and SVD (Matrix Factorization). The system intelligently routes each user to the best model based on their rating history.
 
@@ -6,7 +6,7 @@ Built for the **Fundamentals of AI and ML** course evaluation.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 CineMatch analyzes ~100,000 movie ratings from the MovieLens 100K dataset and learns patterns that allow it to:
 
@@ -19,7 +19,7 @@ The system is fully **command-line driven** — no GUI is required.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 | :--- | :--- |
@@ -36,7 +36,7 @@ The system is fully **command-line driven** — no GUI is required.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+**
 - **pandas** — data loading and manipulation
@@ -49,7 +49,7 @@ The system is fully **command-line driven** — no GUI is required.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 AIML-cinematch/
@@ -84,7 +84,7 @@ AIML-cinematch/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 
@@ -117,7 +117,7 @@ Download from: https://grouplens.org/datasets/movielens/100k/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 All commands are run from the project root.
 
@@ -165,7 +165,7 @@ python main.py --evaluate
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Each module has a dedicated sanity-check script at the project root:
 
@@ -183,20 +183,20 @@ All scripts exit silently on success and print progress + results along the way.
 
 ---
 
-## 📊 Results (RMSE / MAE on MovieLens 100K Split 1)
+##  Results (RMSE / MAE on MovieLens 100K Split 1)
 
 | Model | RMSE | MAE |
 | :--- | :--- | :--- |
 | Popularity | 1.0037 | 0.8108 |
 | UserUserCF | 0.9759 | 0.7756 |
 | ItemItemCF | 0.9538 | 0.7398 |
-| **SVD** 🏆 | **0.7650** | **0.5882** |
+| **SVD**  | **0.7650** | **0.5882** |
 
 **SVD outperforms the popularity baseline by ~24% in RMSE.**
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 <img width="779" height="209" alt="image" src="https://github.com/user-attachments/assets/08f962b6-dd00-4021-9577-350d4e6129ff" />
 <img width="894" height="413" alt="image" src="https://github.com/user-attachments/assets/a687215d-935c-484b-a3dc-b615afd996fa" />
@@ -206,7 +206,7 @@ All scripts exit silently on success and print progress + results along the way.
 
 ---
 
-## 🔭 Future Enhancements
+##  Future Enhancements
 
 - Add neural collaborative filtering (NCF) or ALS
 - Support for a web UI (FastAPI + React)
@@ -216,12 +216,12 @@ All scripts exit silently on success and print progress + results along the way.
 
 ---
 
-## 📄 License
+##  License
 
 Educational project — free to use and learn from.
 
 ---
 
-## 👤 Author
+##  Author
 
 **KULDEEP PARMAR** — AIML Course Project
