@@ -14,7 +14,6 @@ if __name__ == "__main__":
 
     print(f"\nMatrix: {matrix.shape}")
 
-    # Train SVD
     print("\n===== SVD (Matrix Factorization) =====")
     svd = SVDRecommender(n_factors=30).fit(matrix)
 
@@ -27,7 +26,6 @@ if __name__ == "__main__":
         title = movie_titles.get(mid, "?")
         print(f"  {rank}. {title}  (predicted={score:.2f})")
 
-    # Save + reload
     svd.save("models/svd.pkl")
     svd2 = SVDRecommender().load("models/svd.pkl")
     print(f"\nReloaded SVD -> predicted(0, 0) = {svd2.predict(0, 0):.3f}")
